@@ -5,7 +5,7 @@ import discord
 import hashlib
 import time
 
-discord_token = "MTAxODk3NzA0ODYxMTU0MTAwMg.G7Qlhi.ZKZQ_7QChhCImcQ19yGHaXDEIUz6tqYNJAcoIM"
+discord_token = INSERT_DISCORD_TOKEN_HERE
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 web_url = ""
 run_thread = True
